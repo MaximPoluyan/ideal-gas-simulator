@@ -10,7 +10,7 @@ Windows Forms-симулятор **двумерного одноатомного
 ## Скриншоты
 
 **Главное окно симуляции**
-![Главное окно симуляции](./1.png)
+![Главное окно симуляции](./collision2.gif)
 
 **Окно статистики (гистограмма скоростей + кривая Максвелла)**
 ![Окно статистики (гистограмма скоростей + кривая Максвелла)](./2.png)
@@ -76,7 +76,7 @@ Includes real-time visualization, basic statistics, and a speed histogram with a
 ## Screenshots
 
 **Main simulation window**
-![Main simulation window](./1.png)
+![Main simulation window](./collision2.gif)
 
 **Statistics window (speed histogram + Maxwell curve)**
 ![Statistics window (speed histogram + Maxwell curve)](./2.png)
@@ -129,3 +129,5 @@ The simulator supports saving and loading the simulation state/results using a *
   - `MainForm.*` — main simulation UI and core logic
   - `StatisticsForm.*` — statistics and Maxwell distribution plot
   - `Program.cs` — entry point
+
+
