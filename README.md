@@ -32,9 +32,8 @@ Windows Forms-симулятор **двумерного одноатомного
 ## Сохранение / загрузка результатов моделирования (`.moig`)
 
 Симулятор поддерживает сохранение и загрузку состояния/результатов моделирования в **бинарном формате `.moig`**:
-- Используй меню приложения **Файл → Сохранить...**, чтобы сохранить текущее состояние модели в файл (рекомендуемое расширение: `.moig`).
+- Используй меню приложения **Файл → Сохранить...**, чтобы сохранить текущее состояние модели в файл
 - Используй **Файл → Открыть...**, чтобы загрузить ранее сохранённый `.moig` файл.
-- Также приложение может автоматически сохранять снимок состояния в **`temporary.moig`** (автосохранение).
 
 > Примечание: `.moig` — внутренний бинарный формат проекта. Файлы лучше открывать той же версией приложения, которой они были сохранены.
 
@@ -62,7 +61,6 @@ Windows Forms-симулятор **двумерного одноатомного
 - `IdealGasSimulator/` — проект WinForms
   - `MainForm.*` — главное окно и логика симуляции
   - `StatisticsForm.*` — статистика и график распределения Максвелла
-  - `Program.cs` — точка входа
 
 ENG:
 
@@ -98,9 +96,8 @@ Includes real-time visualization, basic statistics, and a speed histogram with a
 ## Saving / Loading simulation results (`.moig`)
 
 The simulator supports saving and loading the simulation state/results using a **binary `.moig` format**:
-- Use the application menu **File → Save...** to store the current model state to a file (recommended extension: `.moig`).
+- Use the application menu **File → Save...** to store the current model state to a file
 - Use **File → Open...** to load a previously saved `.moig` file.
-- The app can also automatically save a snapshot to **`temporary.moig`** (auto-save).
 
 > Note: `.moig` is a project-specific binary format. Files should be read/written in the same version of the app.
 
@@ -128,6 +125,6 @@ The simulator supports saving and loading the simulation state/results using a *
 - `IdealGasSimulator/` — WinForms project
   - `MainForm.*` — main simulation UI and core logic
   - `StatisticsForm.*` — statistics and Maxwell distribution plot
-  - `Program.cs` — entry point
+
 
 
